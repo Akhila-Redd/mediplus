@@ -1,0 +1,118 @@
+
+    .nav-link {
+        color: rgb(79, 74, 74);
+    }
+
+    .single-slider {
+        width: 100%;
+        height: 600px;
+        background-image: url(../bootstrap.html/slider1.jpg);
+        background-size: cover;
+       
+    }
+
+    .second-slider {
+        width: 100%;
+        height: 600px;
+        background-image: url(../bootstrap.html/slider12.jpg);
+        background-size: cover;
+        
+
+    }
+
+    .third-slider {
+        width: 100%;
+        height: 600px;
+        background-image: url(../bootstrap.html/slider3.jpg);
+        background-size: cover;
+        
+
+    }
+    .carousel-item{
+        position:relative;
+    }
+    .col-lg-5.col-md-8.col-sm-12{
+         position:absolute;
+         bottom:30%;
+         /* right:45%; */
+    }
+    .card{
+        height:100%;
+        position:absolute;
+        top:-45%;
+    }
+    .Feautes .single-features::before {
+        position: absolute;
+        content: "";
+        right: -72px;
+        top: 60px;
+        width: 118px;
+        border-bottom: 3px dotted #1a76d1;
+    }
+    .fun-facts{
+        background-image: url(../bootstrap.html/fun-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 200px 0;
+        opacity:0.8;
+    }
+    .single-feature{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:10px;
+    }
+    .single-feature-last{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:10px;
+
+    }
+    .title{
+        gap:10px;
+    }
+    .single-fun{
+        position: absolute;
+
+    }
+    .time-sidual{
+        list-style-type: none;
+    }
+    .icons {
+        border-radius: 100%;
+        padding: 5px;
+        font-size: 57px;
+        border: 1px solid rgb(161, 147, 147);
+        width: 100px;
+        height: 100px;
+        display: grid;
+        place-items: center;
+        color: lightblue;
+    }
+    .icon {
+        border-radius: 100%;
+        padding: 5px;
+        font-size: 57px;
+        border: 1px solid white;
+        width: 100px;
+        height: 100px;
+        display: grid;
+        place-items: center;
+        color:white;
+    }
+    .fun-facts{
+        position:relative;
+    }
+      .overlay:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: #1a76d1;
+        opacity: 0.8;
+    }
