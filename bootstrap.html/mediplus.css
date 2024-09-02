@@ -6,7 +6,7 @@
     .single-slider {
         width: 100%;
         height: 600px;
-        background-image: url(../bootstrap.html/slider1.jpg);
+        background-image: url('./slider.jpg');
         background-size: cover;
        
     }
@@ -14,7 +14,7 @@
     .second-slider {
         width: 100%;
         height: 600px;
-        background-image: url(../bootstrap.html/slider12.jpg);
+        background-image: url('./slider12.jpg');
         background-size: cover;
         
 
@@ -23,7 +23,7 @@
     .third-slider {
         width: 100%;
         height: 600px;
-        background-image: url(../bootstrap.html/slider3.jpg);
+        background-image: url('./slider3.jpg');
         background-size: cover;
         
 
@@ -41,20 +41,11 @@
         position:absolute;
         top:-45%;
     }
-    .Feautes .single-features::before {
-        position: absolute;
-        content: "";
-        right: -72px;
-        top: 60px;
-        width: 118px;
-        border-bottom: 3px dotted #1a76d1;
-    }
     .fun-facts{
-        background-image: url(../bootstrap.html/fun-bg.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding: 200px 0;
-        opacity:0.8;
+        background-image: url('./fun-bg.jpg');
+        
+        padding:80px 0px;
+       
     }
     .single-feature{
         text-align: center;
@@ -71,17 +62,19 @@
         gap:10px;
 
     }
-    .title{
+    .titles{
+        text-align: center;
         gap:10px;
     }
-    .single-fun{
-        position: absolute;
-
-    }
+    
     .time-sidual{
         list-style-type: none;
     }
-    .icons {
+    .list{
+        list-style-type: none;
+
+    }
+     .icons {
         border-radius: 100%;
         padding: 5px;
         font-size: 57px;
@@ -91,22 +84,98 @@
         display: grid;
         place-items: center;
         color: lightblue;
+    } 
+    .hands{
+        background-image: url(../fun-bg.jpg);
+        padding: 80px 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .icon {
-        border-radius: 100%;
-        padding: 5px;
-        font-size: 57px;
-        border: 1px solid white;
-        width: 100px;
-        height: 100px;
-        display: grid;
+    /* .overlay:before{
+        background: #1a76d1;
+        opacity:0.8;
+           
+    } */
+    .icon{
+        font-size: 40px;
+        width:70px;
+        height:70px;
+        color:white;
+        border:2px solid white;
+        border-radius: 50%;
         place-items: center;
+        display: grid;
+    }
+    .single{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        gap:10px;
+        position: relative;
+    }
+    .content{
+        color:white;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .single:hover .icon{
+        background-color: white;
+        color:#1a76d1;
+        border-color: transparent;
+    }
+    .single-feature:hover .icons{
+        background-color: #1a76d1;
+        color:white;
+        border:transparent;
+    }
+    .single-feature-last:hover .icons{
+        background-color: #1a76d1;
+        color:white;
+        border:transparent;
+    }
+    .counter{
+        font-size: 30px;
+    }
+    .video img{
+        height:100%;
+        width:100%;
+    }
+    .Patient{
+        background-image: url(../call-bg.jpg);
+        padding:140px 0;
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+    .texts{
         color:white;
     }
-    .fun-facts{
-        position:relative;
+    .stage{
+        flex-wrap: wrap;
+        overflow: hidden;
+        display: flex;
     }
-      .overlay:before {
+    .service{
+        display: flex;
+        gap:15px;
+    }
+    .maps{
+        font-size: 45px;
+        color:#1a76d1
+
+
+    }
+    .contents h4{
+        text-decoration: none;
+        color:black;
+    }
+    .hand{
+        position: relative;
+    }
+    .Patients{
+        position: relative;
+    }
+    .overlay:before {
         position: absolute;
         content: "";
         left: 0;
@@ -116,3 +185,104 @@
         background: #1a76d1;
         opacity: 0.8;
     }
+    .second{
+        border:1px solid white;
+    }
+   
+    .col-lg-3 .col-md-6 .col-12{
+        position: relative;
+        
+        
+    } 
+    .photo{
+        position:relative;
+    }
+ /* .overlay{
+    position:absolute;
+ } */
+ 
+    .screen{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color:#1a76d1
+      }
+      .screen:hover{
+        opacity:0.8;
+      }
+      .screen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .buton{
+        border:none;
+        border-radius: 5px;
+        color:#1a76d1;
+      }
+    /* @media screen {
+        .screen:hover{
+            opacity:0.8;
+            background-color:#1a76d1
+            
+        }
+        .screen button:hover{
+            background-color: black;
+            transition: ease-in 0.5s;
+            color: white;
+
+        }
+    } */
+   .bttn{
+    font-size:18px;
+    display:inline-block;
+    text-align:center;
+    text-decoration: none;
+    padding:5px 15px;
+    color: #1a76d1;
+    background-color:white;
+    position:relative;
+    z-index:2;
+    &:before {
+      -webkit-transition:0.5s all ease;
+      transition:0.5s all ease;
+      position:absolute;
+      top:0;
+      left:50%;
+      right:50%;
+      bottom:0;
+      opacity:0;
+      content:'';
+      background-color:black;
+      z-index:-1;
+
+    }
+    &:hover {
+      &:before {
+        -webkit-transition:0.5s all ease;
+        transition:0.5s all ease;
+        left:0;
+        right:0;
+        opacity:1;
+      
+      }
+    }
+    &:focus {
+      &:before {
+        -webkit-transition:0.5s all ease;
+        transition:0.5s all ease;
+        left:0;
+        right:0;
+        opacity:1;
+      color:white;
+
+      }
+    }
+  }
