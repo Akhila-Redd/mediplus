@@ -227,19 +227,7 @@
         border-radius: 5px;
         color:#1a76d1;
       }
-    /* @media screen {
-        .screen:hover{
-            opacity:0.8;
-            background-color:#1a76d1
-            
-        }
-        .screen button:hover{
-            background-color: black;
-            transition: ease-in 0.5s;
-            color: white;
-
-        }
-    } */
+  
    .bttn{
     font-size:18px;
     display:inline-block;
@@ -286,3 +274,145 @@
       }
     }
   }
+  .table-list{
+    text-decoration: none;
+  }
+  .head-icon{
+    font-size: 65px;
+  }
+  .amount{
+    font-size: 35px;
+
+  }
+  .plastic{
+    font-size:21px;
+  }
+  .date{
+    display: inline-block;
+    background-color: #1a76d1;
+    border-radius:2px;
+    color:white;
+    padding:4px 15px;
+    margin-top: auto;
+  }
+  .news-head{
+    width:100%;
+    height:50%;
+  }
+  .image-blog{
+    width:100%;
+    height:100%;
+    max-width:100%;
+  }
+  .hospital{
+    background-image: url(../client-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:50px 0px;
+
+  }
+  .forms input{
+    width:100%;
+    height:50px;
+    border:1px solid rgb(58, 57, 57);
+    padding:0 18px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  .forms select{
+    width:100%;
+    height:50px;
+    border:1px solid rgb(58, 57, 57);
+    padding:0 18px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  .forms textarea{
+    width:100%;
+    height:150px;
+    border:1px solid rgb(58, 57, 57);
+    padding:0 18px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  .appo{
+    border:none;
+    background-color: #1a76d1;
+    padding:10px 12px;
+    color:white;
+    border-radius:5px;
+  }
+  .smiley{
+    width:100%;
+    height:70%;
+  }
+  .news-sub{
+    /* background-color: aliceblue; */
+    background: #EDF2FF;
+    padding:90px 0px;
+
+  .btn{
+    background-color: #1a76d1;
+    color:white;
+    width:180px;
+     height:60px; 
+    line-height: 45px;
+  }
+}
+.left h6{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: black;
+}
+.btn{
+    transition: all 0.4s ease;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    padding: 0;
+    width: 180px;
+    position: relative;
+    top: -2px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: 0px 5px 15px rgba(188, 199, 255, 0.75);
+}
+.about input{
+    width:100%;
+    height:50px;
+    border:1px solid white ;
+    padding:0 18px;
+    font-size: 14px;
+    border-radius: 4px;
+    background: transparent;
+    color:white;
+  }
+  
+  .footer{
+    background-color: #1a76d1;
+    color: white;
+    padding:100px 0px;
+  }
+  .list a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 100%;
+  }
+  /* :target[placeholder="Your email address"]{
+    color:white;
+  } */
+   .ri-send-plane-fill{
+    position: absolute;
+    right:0px;
+    top:0px;
+    bottom: 0px;
+    font-size: 30px;
+    color:#1a76d1;
+    background-color: white;
+   }
+   .email-tag{
+    position:relative;
+   }
